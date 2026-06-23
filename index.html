@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- screen-1st -->
+    <section id="screen-1st" style="display: block;">
+        <h1>Trivia Battle Game</h1>
+        <div id="input-box">
+            <label for="player-name-1st">Player 1 Name :</label>
+            <input id="player-name-1st" type="text" placeholder="Enter Player 1 Name"><br>
+            <label for="player-name-2nd">Player 2 Name :</label>
+            <input id="player-name-2nd" type="text" placeholder="Enter Player 2 Name">
+        </div>
+        <button id="start-btn">Start Game</button>
+        <p id="show-err-msg"></p>
+    </section>
+
+    <!-- screen-2nd -->
+    <section id="screen-2nd" style="display: none;">
+        <h1>Trivia Battle Game</h1>
+        <h1 id="round-num"></h1>
+        <label for="slt-category">Select Category: </label>
+        <select name="category" id="slt-category">
+            <option value="" selected>Select</option>
+            <option value="music">Music</option>
+            <option value="sport_and_leisure">Sport And Leisure</option>
+            <option value="film_and_tv">Film And Tv</option>
+            <option value="arts_and_literature">Arts And Literature</option>
+            <option value="history">History</option>
+            <option value="society_and_culture">Society And Culture</option>
+            <option value="science">Science</option>
+            <option value="geography">Geography</option>
+            <option value="food_and_drink">Food And Drink</option>
+            <option value="general_knowledge">General Knowledge</option>
+        </select>
+        <button id="start-Round-Btn">Start Round</button>
+        <p id="err-msg"></p>
+    </section>
+
+    <!-- section-3 -->
+    <section id="screen-3rd" style="display: none;">
+        <div>
+            <h2 id="show-round-num"></h2>
+            <h1 id="show-category"></h1>
+            <h2 id="show-difficulty"></h2>
+            <h2 id="show-player-turn"></h2>
+            <p id="show-score"></p>
+            <p id="show-question"></p>
+        </div>
+        <div>
+            <fieldset>
+                <input type="radio" name="options" id="option1">
+                <label for="option1"></label><br>
+                <input type="radio" name="options" id="option2">
+                <label for="option2"></label><br>
+                <input type="radio" name="options" id="option3">
+                <label for="option3"></label><br>
+                <input type="radio" name="options" id="option4">
+                <label for="option4"></label>
+            </fieldset>
+        </div>
+        <button id="next-btn">Next</button>
+    </section>
+
+    <!-- screen-4 -->
+    <section id="screen-4th" style="display: none;">
+        <h1>Trivia Battle Game</h1>
+        <button id="nxt-btn">Next Round</button>
+        <button id="end-game">End Game</button>
+    </section>
+
+    <!-- screen-5 -->
+    <section id="screen-5th" style="display: none;">
+        <div>
+            <p id="score-player-1"></p>
+            <p id="score-player-2"></p>
+        </div>
+        <p id="winner"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> 

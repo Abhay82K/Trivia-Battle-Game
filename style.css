@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* screen-1st */
+#screen-1st {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#screen-1st h1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+#screen-1st button {
+    font-size: 18px;
+    margin: 30px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#screen-1st div {
+    margin: 50px;
+}
+
+#screen-1st div label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#screen-1st div input {
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#screen-1st p {
+    font-size: 30px;
+    color: red;
+}
+
+/* screen-2nd */
+
+#screen-2nd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#screen-2nd h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+#screen-2nd label {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#screen-2nd select {
+    display: inline;
+    font-size: 20px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#screen-2nd button {
+    display: block;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#screen-2nd p {
+    font-size: 30px;
+    color: red;
+}
+
+
+#screen-3rd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#screen-3rd #show-round-num {
+    font-size: 50px;
+    padding: 15px;
+}
+
+#show-category {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#show-difficulty {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#show-player-turn {
+    font-size: 30px;
+    padding: 5px;
+}
+
+#show-score {
+    font-size: 30px;
+    padding: 8px;
+}
+
+#show-question {
+    font-size: 40px;
+    padding: 5px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+fieldset label {
+    margin-left: 10px;
+}
+
+#screen-3rd label {
+    font-size: 25px;
+}
+
+#next-btn {
+    font-size: 18px;
+    margin: 30px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* screen-4th */
+#screen-4th {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#screen-4th h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
+#screen-4th button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* screen-5th */
+
+#screen-5th {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#score-player-1,
+#score-player-2 {
+    font-size: 35px;
+    margin: 20px;
+}
+
+#winner {
+    font-size: 45px;
+    margin-top: 40px;
+    color: green;
+    font-weight: bold;
+}
