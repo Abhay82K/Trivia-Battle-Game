@@ -140,7 +140,7 @@ function showQuestionDetails() {
 
     for(let i = 0; i < labels.length; i++) {
         labels[i].innerText = optionArr[i];
-         labels[i].style.color = "black";
+        labels[i].style.color = "black";
     }
 
     for(let i = 0; i < showradioBtn.length; i++) {
@@ -213,7 +213,6 @@ showNxt.addEventListener("click", function() {
     currentIndex++;
 
     if(currentIndex < questionsArr.length) {
-        // showPlayTurn.innerText = "";
         showQuestionDetails();
     } else {
         showScreen3rd.style.display = "none";
