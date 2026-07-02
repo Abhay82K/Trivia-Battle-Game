@@ -7,7 +7,7 @@ Players compete against each other by answering trivia questions from different 
 
 ## 🚀 Live Demo
 
-🔗 https://abhay82k.github.io/Trivia-Battel-Game/
+🔗 https://abhay82k.github.io/Trivia-Battle-Game/
 
 ---
 
